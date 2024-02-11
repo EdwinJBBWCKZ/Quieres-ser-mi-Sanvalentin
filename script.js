@@ -246,37 +246,25 @@ document.getElementById('noBtn').addEventListener('click', function() {
                 document.getElementById('noBtn').innerHTML = 'por favooooooor';
                 document.getElementById('noBtn').style.backgroundColor = '#F1330A';
               
-                document.getElementById('sadGifContainer').style.display = 'none';
-                document.getElementById('sadGifContainer1').style.display = 'none';
-                document.getElementById('sadGifContainer2').style.display = 'none';
-                document.getElementById('gifContainer').style.display = 'block';
-                document.getElementById('happyGifContainer').style.display = 'none';
-                // Vuelve al estado 0
-                noButtonState = 0;
-                break;
-        
-
-        default:
-            // Por si acaso, maneja cualquier otro caso aquí
+            // Hacer que el botón "Sí" crezca
+            document.getElementById('siBtn').style.fontSize = '280px';
+            document.getElementById('siBtn').style.padding = '180px 300px';
+          
+            noButtonState++;
             break;
+        
 
         case 17:
                 document.getElementById('noBtn').innerHTML = 'KARLAA GUADALUPEE, me voy a enojar contigo';
                 document.getElementById('noBtn').style.backgroundColor = '#F1330A';
               
-                document.getElementById('sadGifContainer').style.display = 'none';
-                document.getElementById('sadGifContainer1').style.display = 'none';
-                document.getElementById('sadGifContainer2').style.display = 'none';
-                document.getElementById('gifContainer').style.display = 'block';
-                document.getElementById('happyGifContainer').style.display = 'none';
-                // Vuelve al estado 0
-                noButtonState = 0;
-                break;
-        
-
-        default:
-            // Por si acaso, maneja cualquier otro caso aquí
+                 // Hacer que el botón "Sí" crezca
+            document.getElementById('siBtn').style.fontSize = '280px';
+            document.getElementById('siBtn').style.padding = '190px 320px';
+          
+            noButtonState++;
             break;
+        
 
         case 18:
                 document.getElementById('noBtn').innerHTML = 'Perdon, Di que Si Amor';
@@ -297,5 +285,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
     }
 });
+
+
 
 
